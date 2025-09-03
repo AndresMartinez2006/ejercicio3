@@ -4,40 +4,113 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mis Videojuegos Favoritos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6fa;
+      color: #2f3640;
+    }
+
+    header {
+      background: linear-gradient(135deg, #192a56, #273c75);
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    section h2 {
+      margin-top: 10px;
+      font-size: 1.3rem;
+      color: #192a56;
+    }
+
+    section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    section p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    footer {
+      background: #192a56;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>?? Mis Videojuegos Favoritos</h1>
-</header>
-<main>
-<section>
-  <h2>The Legend of Zelda: Breath of the Wild</h2>
-  <img src="images/zelda.jpg" alt="Zelda BOTW" width="300">
-  <p>Un juego de mundo abierto donde exploras libremente Hyrule y enfrentas a Ganon con total libertad.</p>
-</section>
-<section>
-  <h2>God of War</h2>
-  <img src="images/gow.jpg" alt="God of War" width="300">
-  <p>Acompa�a a Kratos y su hijo Atreus en un viaje �pico inspirado en la mitolog�a n�rdica.</p>
-</section>
-<section>
-  <h2>Red Dead Redemption 2</h2>
-  <img src="images/rdr2.jpg" alt="RDR2" width="300">
-  <p>Una experiencia inmersiva en el Viejo Oeste con una narrativa profunda y un mundo abierto lleno de vida.</p>
-</section>
-<section>
-  <h2>Minecraft</h2>
-  <img src="images/minecraft.jpg" alt="Minecraft" width="300">
-  <p>Un juego de construcci�n y exploraci�n donde la creatividad no tiene l�mites.</p>
-</section>
-<section>
-  <h2>Super Mario Odyssey</h2>
-  <img src="images/mario.jpg" alt="Super Mario Odyssey" width="300">
-  <p>Acompa�a a Mario en una aventura por distintos reinos para rescatar a la Princesa Peach.</p>
-</section>
-</main>
-<footer>
-<p>Hecho con ?? por Andres Martinez</p>
-</footer>
+  <header>
+    <h1>🎮 Mis Videojuegos Favoritos</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>The Legend of Zelda: Breath of the Wild</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" alt="Zelda BOTW">
+      <p>Un juego de mundo abierto donde exploras libremente Hyrule y enfrentas a Ganon con total libertad.</p>
+    </section>
+
+    <section>
+      <h2>God of War</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg" alt="God of War">
+      <p>Acompaña a Kratos y su hijo Atreus en un viaje épico inspirado en la mitología nórdica.</p>
+    </section>
+
+    <section>
+      <h2>Red Dead Redemption 2</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg" alt="RDR2">
+      <p>Una experiencia inmersiva en el Viejo Oeste con una narrativa profunda y un mundo abierto lleno de vida.</p>
+    </section>
+
+    <section>
+      <h2>Minecraft</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft">
+      <p>Un juego de construcción y exploración donde la creatividad no tiene límites.</p>
+    </section>
+
+    <section>
+      <h2>Super Mario Odyssey</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" alt="Super Mario Odyssey">
+      <p>Acompaña a Mario en una aventura por distintos reinos para rescatar a la Princesa Peach.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con ❤️ por Andres Martinez</p>
+  </footer>
 </body>
 </html>
